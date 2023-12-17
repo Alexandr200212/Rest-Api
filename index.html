@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Посты</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="posts">
+        <h1 class="title">Посты</h1>
+        <button class="posts_get-posts">Вывести все посты</button>
+
+        <form class="post_get">
+            <h6>Вывод одного поста</h6>
+            <input type="text" placeholder="Введите Id поста" id="post__post" class="post__post">
+        </form>
+
+        <button class="post_get-post">Вывести</button>
+
+        <form class="post_filter">
+            <h6>Вывод постов пользователя</h6>
+            <input type="text" placeholder="Введите Id пользователя" id="post__user" class="post__user">
+        </form>
+
+        <button class="post_filter-post">Вывести</button>
+
+        <div class="wrapper">
+            <div class="posts_list"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
